@@ -1,6 +1,7 @@
 body {
     background-color: #490457;
     color: white;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Tourney', cursive;
@@ -28,4 +29,13 @@ p {
 }
 img {
   display: block;
+
+ }
+#logohomepage {
+   background:  image(img/PP_Logo_PurplePaw_boxedMap_Black) top;
+
+}
+#background1 {
+ background: image(img/PP_1280x1220_white_Map) right bottom;
+
 }
