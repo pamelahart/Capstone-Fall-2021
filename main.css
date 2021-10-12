@@ -1,14 +1,18 @@
 body {
-    font-family: sans-serif;
     background-color: #490457;
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Tourney', cursive;
 }
 h1 {
      text-align: center;
+     font-family: 'Tourney Semi-bold600', sans-serif;
+     font-size: 50px;
 }
 p {
- color: white;
- margin: 25px 50px 75px 100px;
-}
-image: 
+     color: white;
+     font-family: 'Montserrat Regular 400', sans-serif;
+     font-size: 20px;
+     margin: 25px 50px 75px 100px;
 }
