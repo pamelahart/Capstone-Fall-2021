@@ -29,13 +29,15 @@ p {
 }
 img {
   display: block;
+  opacity: 0.5;
 
  }
 #logohomepage {
    background:  image(img/PP_Logo_PurplePaw_boxedMap_Black) top;
 
 }
-#background1 {
+.background1 {
  background: image(img/PP_1280x1220_white_Map) right bottom;
-
+     opacity: 0.5;
+     width: fit-content;
 }
