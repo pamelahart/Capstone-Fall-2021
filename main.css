@@ -1,10 +1,10 @@
 body {
-    background-color: #000000;
-    color: white;
+    /* background-color: #000000;*/
+    color: #522D6D;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-family: 'Tourney', cursive;
+    
 }
 
 #logohomepage {
@@ -14,9 +14,10 @@ body {
    opacity:1;
 }
 h1 {
-     text-align: center;
-     font-family: 'Montserrat Alternates Light 300', sans-serif;
+    
+     font-family: 'Tourney', cursive;;
      font-size: 50px;
+     margin: 25px 50px 75px 100px;
 }
 h2 {
      text-align: center;
@@ -30,7 +31,7 @@ h3 {
 
 }
 p {
-     color: white;
+     color: #522D6D;
      font-family: 'Montserrat Regular 400', sans-serif;
      font-size: 20px;
      margin: 25px 50px 75px 100px;
@@ -52,7 +53,7 @@ footer{
 
 #background1::before {    
       content: "";
-      background-image: url("img/PP_1280x1220_white_Map.png");
+      background-image: url("img/PP_1280x1220_FitnessDogOwner.png");
       background-size: cover;
       position: absolute;
       top: 0px;
