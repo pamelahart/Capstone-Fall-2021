@@ -63,6 +63,20 @@ footer{
       z-index: -1;
   
 }
+
+#background2::before {    
+      content: "";
+      background-image: url("img/PP_1280x1220_FitnessDogOwner.png");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.125;
+      z-index: -1;
+  
+}
 img {
   display: block;
 }
