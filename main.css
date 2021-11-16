@@ -96,6 +96,18 @@ img {
   background-color: #333;
   overflow: hidden;
 }
+/* background image on homepage */
+.hpimage{
+  background-image: url("img/PP_1280x1220_FitnessDogOwner.png");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+
+      z-index: -1;
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
