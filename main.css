@@ -43,6 +43,27 @@ p {
      font-family: 'Montserrat Regular 400', sans-serif;
      font-size: 20px;
      margin: 25px 50px 75px 100px;
+
+/* GRADIENTS{ }*/
+}
+.aboutgradient {
+  height: 100px;
+  background-color: #85369F;
+  background-image:
+    linear-gradient(
+    to right, 
+    #85369F, #8AD2FF
+    );
+}
+}
+.deliverablesgradient {
+  height: 100px;
+  background-color: #85369F;
+  background-image:
+    linear-gradient(
+    to right, 
+    #85369F, #FC6955
+    );
 }
 
 /* footer {    
