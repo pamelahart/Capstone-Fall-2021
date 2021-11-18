@@ -62,10 +62,15 @@ body {
    width:20%;
    opacity:1;
 }
-.aboutcopybox {
-margin: 250px 500px 750px 1000px;
 
+.aboutcopybox {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
 }
+
 h1 {
      margin: 25px 50px 75px 100px;
      font-family: 'Montserrat Alternates', sans-serif;
@@ -99,7 +104,10 @@ p {
 img {
   display: block;
 }
+.logodiv {
+  position: center;
 
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #000000;
