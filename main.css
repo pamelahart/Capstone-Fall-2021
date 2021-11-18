@@ -62,7 +62,7 @@ body {
    width:20%;
    opacity:1;
 }
-
+/* Copy Box Div Container for About Page --------- not working */
 .aboutcopybox {
   background-color: lightgrey;
   width: 300px;
@@ -74,8 +74,9 @@ body {
 h1 {
      margin: 25px 50px 75px 100px;
      font-family: 'Montserrat Alternates', sans-serif;
-     font-size: 50px;
+     font-size: 30px;
      margin: 25px 50px 75px 100px;
+     line-height: 1.8;
 }
 h2 {
      margin: 25px 50px 75px 100px;
