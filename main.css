@@ -6,12 +6,12 @@
 /* GRADIENTS{ }*/
 
 .homegradient {
-  height: 400px;
+  height: 200px;
   background-color: #595A5C;
   background-image:
     linear-gradient(
     to right, 
-    #595A5C, #8AD2FF
+    #595A5C, #aaafb3
     );
 }
 
@@ -26,7 +26,7 @@
 }
 
 .deliverablesgradient {
-  height: 100px;
+  height: 200px;
   background-color: #85369F;
   background-image:
     linear-gradient(
@@ -36,7 +36,7 @@
 }
 
 .creditsgradient {
-  height: 100px;
+  height: 200px;
   background-color: #00A7E1;
   background-image:
     linear-gradient(
@@ -52,6 +52,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Montserrat Alternates', sans-serif;
     
+    
 }
 
 #logohomepage {
@@ -60,6 +61,10 @@ body {
    margin: 25px 50px 75px 100px;
    width:20%;
    opacity:1;
+}
+.aboutcopybox {
+margin: 250px 500px 750px 1000px;
+
 }
 h1 {
      margin: 25px 50px 75px 100px;
@@ -71,6 +76,7 @@ h2 {
      margin: 25px 50px 75px 100px;
      font-family: 'Montserrat Thin 400', sans-serif;
      font-size: 30px;
+     color: #ffffff,
     
 }
 h3 {
