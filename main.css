@@ -77,19 +77,21 @@ h1 {
      font-family: 'Montserrat Alternates', sans-serif;
      font-size: 30px;
      margin: 25px 50px 75px 100px;
-     line-height: 1.8;
+     line-height: 1.5em;
 }
 h2 {
      margin: 25px 50px 75px 100px;
      font-family: 'Montserrat Thin 400', sans-serif;
      font-size: 30px;
      color: #ffffff;
+      line-height: 1.5em;
     
 }
 h3 {
      margin: 25px 50px 75px 100px;
      font-family: 'Tourney Semi-bold600', sans-serif;
      font-size: 20px;
+      line-height: 1.5em;
 }
 h4 {
      margin: 25px 50px 75px 100px;
@@ -101,6 +103,7 @@ p {
      font-family: 'Montserrat Regular 400', sans-serif;
      font-size: 20px;
      margin: 25px 50px 75px 100px;
+     line-height: 1.5em;
 
 }
 img {
@@ -115,7 +118,7 @@ img {
   background-color: #000000;
   overflow: hidden;
 }
-/* background image on homepage */
+/* background image on homepage - cover not working to fill page*/
 .hpimage{
   background-image: url("img/PP_1280x1220_FitnessDogOwner.png");
       background-size: cover;
