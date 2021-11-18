@@ -1,3 +1,8 @@
+/* Nav Elements{ }*/
+#flavocon {
+  position: relative;
+}
+
 /* GRADIENTS{ }*/
 
 .homegradient {
@@ -11,7 +16,7 @@
 }
 
 .aboutgradient {
-  height: 400px;
+  height: 200px;
   background-color: #85369F;
   background-image:
     linear-gradient(
