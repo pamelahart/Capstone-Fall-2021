@@ -1,12 +1,13 @@
 /* Nav Elements{ }*/
 #flavocon {
   position: relative;
+  size: 50%;
 }
 
 /* GRADIENTS{ }*/
 
 .homegradient {
-  height: 150px;
+  height: 100px;
   background-color: #595A5C;
   background-image:
     linear-gradient(
@@ -43,6 +44,12 @@
     to right, 
    #85369F, #00A7E1
     );
+}
+
+/* images*/
+.aboutimage1 {
+  height: 25%;
+
 }
 
 body {
@@ -121,7 +128,8 @@ img {
 /* background image on homepage - cover not working to fill page*/
 .hpimage{
   background-image: url("img/PP_1280x1220_FitnessDogOwner.png");
-      background-size: cover;
+      max-width: 100%;
+      height: auto;
       position: absolute;
       top: 0px;
       right: 0px;
