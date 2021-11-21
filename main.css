@@ -1,7 +1,12 @@
 /* Nav Elements{ }*/
 #flavocon {
   position: relative;
-  size: 50%;
+  max-height: 120px;
+}
+.fa-tumblr-square {
+  color: #ffffff;
+  padding: 10px
+
 }
 
 /* GRADIENTS{ }*/
