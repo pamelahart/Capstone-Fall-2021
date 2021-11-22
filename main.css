@@ -8,6 +8,165 @@
   padding: 10px
 
 }
+/* Gradients{ }*/
+
+.aboutgradient {
+  height: 200px;
+  background-color: #85369F;
+  background-image:
+    linear-gradient(
+    to right, 
+    #85369F, #8AD2FF
+    );
+}
+
+.deliverablesgradient {
+  height: 200px;
+  background-color: #85369F;
+  background-image:
+    linear-gradient(
+    to right, 
+    #85369F, #FC6955
+    );
+}
+
+.creditsgradient {
+  height: 200px;
+  background-color: #00A7E1;
+  background-image:
+    linear-gradient(
+    to right, 
+   #85369F, #00A7E1
+    );
+}
+
+/* images*/
+.aboutimage1 {
+  height: 25%;
+
+}
+
+body {
+    /* background-color: #000000;*/
+    color: #522D6D;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+  html {
+  height: 100%;
+  margin: 0;
+  
+}
+
+#logohomepage {
+   /* margin-left:auto; */
+   /* margin-right:auto; */
+   margin: 25px 50px 75px 100px;
+   width:20%;
+   opacity:1;
+}
+/* Copy Box Div Container for About Page --------- not working */
+.aboutcopybox {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  line-height: 1.5em;
+}
+
+h1 {
+     margin: 25px 50px 75px 100px;
+     font-family: 'Montserrat Alternates', sans-serif;
+     font-size: 30px;
+     margin: 25px 50px 75px 100px;
+     line-height: 1.5em;
+}
+h2 {
+     margin: 25px 50px 75px 100px;
+     font-family: 'Montserrat Thin 400', sans-serif;
+     font-size: 30px;
+     color: #ffffff;
+      line-height: 1.5em;
+    
+}
+h3 {
+     margin: 25px 50px 75px 100px;
+     font-family: 'Tourney Semi-bold600', sans-serif;
+     font-size: 20px;
+      line-height: 1.5em;
+}
+h4 {
+     margin: 25px 50px 75px 100px;
+     font-family: 'Tourney Semi-bold600', sans-serif;
+     font-size: 20px;
+}
+p {
+     color: #522D6D;
+     font-family: 'Montserrat Regular 400', sans-serif;
+     font-size: 20px;
+     margin: 25px 50px 75px 100px;
+     line-height: 1.5em;
+
+}
+img {
+  display: block;
+}
+.logodiv {
+  position: center;
+
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+/* background image on homepage - cover not working to fill page*/
+
+#hpimage {
+  /* The image used */
+  background-image: url("img/1220x1280_FitnessDogOwner.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #73308A;
+  color: white;
+}
+/* Remove bullets and set margin to ul */
+ul{
+  margin: 25px 50px 75px 100px;
+  padding: 0;
+  list-style-type: none;
+}
 
 /* GRADIENTS{ }*/
 
@@ -53,8 +212,21 @@
 
 /* images*/
 .aboutimage1 {
-  height: 25%;
+  width: 1200px;
+  height: auto;
+}
+/* background image on homepage - cover not working to fill page*/
+#hpimage {
+  /* The image used */
+  background-image: url("img/1220x1280_FitnessDogOwner.png");
 
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
@@ -129,19 +301,6 @@ img {
 .topnav {
   background-color: #000000;
   overflow: hidden;
-}
-/* background image on homepage - cover not working to fill page*/
-.hpimage{
-  background-image: url("img/PP_1280x1220_FitnessDogOwner.png");
-      max-width: 100%;
-      height: auto;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-
-      z-index: -1;
 }
 
 /* Style the links inside the navigation bar */
