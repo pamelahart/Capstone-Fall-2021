@@ -1,7 +1,7 @@
 /* Nav Elements{ }*/
 #flavocon {
   position: relative;
-  max-height: 120px;
+  max-height: 80px;
 }
 .fa-tumblr-square {
   color: #ffffff;
@@ -218,7 +218,7 @@ ul{
 /* background image on homepage - cover not working to fill page*/
 #hpimage {
   /* The image used */
-  background-image: url("img/1220x1280_FitnessDogOwner.png");
+  background-image: url("img/1920x1080_FitnessDogOwner.png");
 
   /* Full height */
   height: 100%;
