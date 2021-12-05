@@ -133,6 +133,17 @@ img {
 }
 /* background image on homepage - to fill page*/
 
+
+#hptitlebanner {
+   /* gradient used */
+  height: 150px;
+  background-color: #85369F;
+  background-image:
+    linear-gradient(
+    to right, 
+    #85369F, #8AD2FF);
+  
+}
 #hpimage {
   /* The image used */
   background-image: url("img/1220x1280_FitnessDogOwner.png");
@@ -144,25 +155,12 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-#hptitlebanner {
-   /* gradient used */
-  height: 200px;
-  background-color: #85369F;
-  background-image:
-    linear-gradient(
-    to right, 
-    #85369F, #8AD2FF
-    );
-
 
   /* Full height */
   height: 100%;
 
   /* Center and scale the image */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
 }
 
 
