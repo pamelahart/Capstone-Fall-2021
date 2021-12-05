@@ -1,13 +1,20 @@
 /* Nav Elements{ }*/
 #flavocon {
   position: relative;
-  max-height: 80px;
+  max-height: 100px;
+  max-width: 75px
 }
 .fa-tumblr-square {
   color: #ffffff;
   padding: 10px
 
 }
+.capstonetitle {
+  padding: 30px;
+  max-height: 100px
+
+}
+
 /* Gradients{ }*/
 
 .aboutgradient {
@@ -124,7 +131,7 @@ img {
   background-color: #000000;
   overflow: hidden;
 }
-/* background image on homepage - cover not working to fill page*/
+/* background image on homepage - to fill page*/
 
 #hpimage {
   /* The image used */
@@ -133,11 +140,31 @@ img {
   /* Full height */
   height: 100%;
 
-  /* Center and scale the image nicely */
+  /* Center and scale the image */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+#hptitlebanner {
+   /* gradient used */
+  height: 200px;
+  background-color: #85369F;
+  background-image:
+    linear-gradient(
+    to right, 
+    #85369F, #8AD2FF
+    );
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 /* Style the links inside the navigation bar */
 .topnav a {
