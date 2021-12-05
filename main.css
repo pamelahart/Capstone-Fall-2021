@@ -146,7 +146,7 @@ img {
 }
 #hpimage {
   /* The image used */
-  background-image: url("img/1220x1280_FitnessDogOwner.png");
+  background-image: url("img/1920x1080_UXBookMouseLeashBalls3.png");
 
   /* Full height */
   height: 100%;
@@ -240,19 +240,7 @@ ul{
   width: 1200px;
   height: auto;
 }
-/* background image on homepage - cover not working to fill page*/
-#hpimage {
-  /* The image used */
-  background-image: url("img/1920x1080_FitnessDogOwner.png");
 
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 body {
     /* background-color: #000000;*/
