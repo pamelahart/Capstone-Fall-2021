@@ -9,7 +9,17 @@
   padding: 10px
 
 }
+/* box of banner
+.capstonetitle {
+  padding: 300px; 
+}*/
 
+/* styling w/in banner*/
+#hptitlebanner{
+    padding: 5px;
+    line-height: 0;
+    color: #ffffff
+}
 /* Gradients{ }*/
 
 .aboutgradient {
@@ -56,6 +66,7 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
     height: 100%;
     margin: 0;
+    line-height: 0;
 }
   html {
   height: 100%;
@@ -71,7 +82,7 @@ body {
    opacity:1;
 }
 /* Copy Box Div Container for About Page --------- not working */
-.aboutcopybox {
+#aboutcopybox {
   background-color: lightgrey;
   width: 300px;
   border: 15px solid green;
@@ -81,11 +92,10 @@ body {
 }
 
 h1 {
-     margin: 25px 50px 75px 100px;
+     
      font-family: 'Montserrat Alternates', sans-serif;
      font-size: 30px;
-     margin: 25px 50px 75px 100px;
-     line-height: 1.5em;
+     line-height: 20%;
 }
 h2 {
      margin: 25px 50px 75px 100px;
@@ -179,7 +189,7 @@ ul{
 #hpimage {
   
   /* The image used */
-  background-image: url("img/1920x1080_UXBookMouseLeashBalls2.png");
+  background-image: url("img/1920x1080_UXBookMouseLeashBalls3.png");
  
 
   /* location on page */
@@ -191,7 +201,7 @@ ul{
   background-size: cover;
 
   /* Position */
-  height: 80%;
+  height: 100%;
   width: auto;
   margin-top: 50px;
 }
