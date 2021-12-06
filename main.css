@@ -104,6 +104,7 @@ h3 {
      margin: 25px 50px 75px 100px;
      font-family: 'Tourney Semi-bold600', sans-serif;
      font-size: 20px;
+     color:#522D6D;
       line-height: 1.5em;
 }
 h4 {
@@ -112,10 +113,10 @@ h4 {
      font-size: 20px;
 }
 p {
+    margin: 25px 50px 75px 100px;
      color: #522D6D;
      font-family: 'Montserrat Regular 400', sans-serif;
      font-size: 20px;
-     margin: 25px 50px 75px 100px;
      line-height: 1.5em;
 
 }
@@ -144,7 +145,7 @@ img {
     linear-gradient(
     to right, 
     #85369F, #8AD2FF);
-  
+     
 }
 
 /* Style the links inside the navigation bar */
@@ -223,6 +224,21 @@ background-image: url("img/1920x1080_Deliverables.png");
   width: auto;
   margin-top: 50px;
 }
+#creditsimage {
+/* The image used */
+background-image: url("img/1920x1080_FitnessDogOwner.png");
+
+ /* Center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Position */
+  height: 100%;
+  width: auto;
+  margin-top: 50px;
+}
+
 
 /* GRADIENTS{ }*/
 
@@ -298,8 +314,7 @@ h1 {
      margin: 25px 50px 75px 100px;
      font-family: 'Montserrat Alternates', sans-serif;
      font-size: 30px;
-     margin: 25px 50px 75px 100px;
-     line-height: -.5em;
+     line-height: unset;
 }
 h2 {
      margin: 25px 50px 75px 100px;
@@ -313,17 +328,18 @@ h3 {
      margin: 25px 50px 75px 100px;
      font-family: 'Tourney Semi-bold600', sans-serif;
      font-size: 20px;
-      line-height: 1.5em;
+     line-height: 0em;
 }
 h4 {
      margin: 25px 50px 75px 100px;
-     font-family: 'Tourney Semi-bold600', sans-serif;
-     font-size: 20px;
+     font-family: 'Montserrat Thin 400', sans-serif;
+     font-size: 24px;
+     color: #ffffff;
 }
 p {
      color: #522D6D;
      font-family: 'Montserrat Regular 400', sans-serif;
-     font-size: 20px;
+     font-size: 18px;
      margin: 25px 50px 75px 100px;
      line-height: 1.5em;
 
