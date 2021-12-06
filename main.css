@@ -61,7 +61,7 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
     height: 100%;
     margin: 0;
-    line-height: 0;
+    line-height: 2.5em;
 }
   html {
   height: 100%;
@@ -76,7 +76,7 @@ body {
    width:20%;
    opacity:1;
 }
-/* Copy Box Div Container for About Page --------- not working */
+/* Copy Box Div Container for About Page --------- not using 
 #aboutcopybox {
   background-color: lightgrey;
   width: 300px;
@@ -84,7 +84,7 @@ body {
   padding: 50px;
   margin: 20px;
   line-height: 1.5em;
-}
+}*/
 
 h1 {
      
