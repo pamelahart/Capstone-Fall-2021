@@ -189,7 +189,7 @@ ul{
   /* Position */
   height: 100%;
   width: auto;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 /* images*/
 
@@ -209,7 +209,7 @@ background-image: url("img/1920x1080_FitnessDogOwner.png");
   
 }
 
-#deliverablesimage1 {
+#deliverablesimage {
 /* The image used */
 background-image: url("img/1920x1080_Deliverables.png");
 
