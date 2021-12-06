@@ -299,7 +299,7 @@ h1 {
      font-family: 'Montserrat Alternates', sans-serif;
      font-size: 30px;
      margin: 25px 50px 75px 100px;
-     line-height: 1.5em;
+     line-height: -.5em;
 }
 h2 {
      margin: 25px 50px 75px 100px;
