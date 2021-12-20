@@ -139,12 +139,14 @@ img {
 
 #hptitlebanner {
    /* gradient used */
-  height: 150px;
-  margin-top: 750px;
+  height: 130px;
+  width: 750px;
+  margin-top: 700px;
+  line-height: 2.5em;
   background-image:
     linear-gradient(
     to right, 
-    #85369F, #8AD2FF);
+    #85369F, #62b3e6);
      
 }
 
@@ -314,7 +316,7 @@ h1 {
      margin: 25px 50px 75px 100px;
      font-family: 'Montserrat Alternates', sans-serif;
      font-size: 30px;
-     line-height: unset;
+     line-height: 20%;
 }
 h2 {
      margin: 25px 50px 75px 100px;
