@@ -313,6 +313,10 @@ body {
   margin: 20px;
   line-height: 1.5em;
 }
+/* Copy for Credits Page */
+.bibnotes {
+  font-family: 'Montserrat Thin 400', sans-serif;
+}
 
 h1 {
      margin: 25px 50px 75px 100px;
@@ -329,13 +333,13 @@ h2 {
     
 }
 h3 {
-     margin: 25px 50px 75px 100px;
+     margin: 25px 50px 0px 100px;
      font-family: 'Tourney Semi-bold600', sans-serif;
      font-size: 20px;
-     line-height: 0em;
+     line-height: 0;
 }
 h4 {
-     margin: 25px 50px 75px 100px;
+     margin: 25px 50px 0px 100px;
      font-family: 'Montserrat Thin 400', sans-serif;
      font-size: 24px;
      color: #ffffff;
@@ -344,7 +348,7 @@ p {
      color: #522D6D;
      font-family: 'Montserrat Regular 400', sans-serif;
      font-size: 18px;
-     margin: 25px 50px 75px 100px;
+     margin: 25px 50px 50px 100px;
      line-height: 25px;
 
 }
