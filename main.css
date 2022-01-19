@@ -1,4 +1,12 @@
 /* Nav Elements{ }*/
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
 #flavocon {
   position: relative;
   max-height: 100px;
@@ -19,7 +27,7 @@
 
 #hptitlebanner {
    /* gradient used */
-  height: 130px;
+  height: 165px;
   width: 750px;
   margin-top: 700px;
   line-height: 30px;
