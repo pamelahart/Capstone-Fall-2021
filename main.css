@@ -1,20 +1,24 @@
-/* Nav Elements{ }*/
+/* Nav Elements{ }
 .logo-image{
     width: 46px;
     height: 46px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -6px;
-}
+}*/
 
 #flavocon {
   position: relative;
   max-height: 100px;
-  max-width: 75px
+  max-width: 75px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
 }
 .fa-tumblr-square {
   color: #ffffff;
-  padding: 10px
+  padding: 10px;
+  margin-top: -6px;
 
 }
 /* box of banner
